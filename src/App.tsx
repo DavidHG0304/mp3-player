@@ -1,13 +1,13 @@
+import React from "react";
 import AudioPlayer from "./components/audio-player/AudioPlayer"
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <AudioPlayer />
-    </>
-
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
